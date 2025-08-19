@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="38px" viewBox="0 0 41 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 2</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="交易-自选区-买币" transform="translate(-611.000000, -238.000000)">
+            <g id="编组-8" transform="translate(611.000000, 240.000000)">
+                <g id="编组-7">
+                    <path d="M6.98142323,24.9722778 C9.83839481,30.3431952 15.4921511,34 22,34 C31.3888407,34 39,26.3888407 39,17 C39,7.61115925 31.3888407,0 22,0 C12.6111593,0 5,7.61115925 5,17" id="路径" stroke="#FFFFFF" stroke-width="4"></path>
+                    <polygon id="三角形" fill="#FFFFFF" transform="translate(5.000000, 18.500000) scale(1, -1) translate(-5.000000, -18.500000) " points="5 16 10 21 0 21"></polygon>
+                </g>
+                <polyline id="路径-8" stroke="#FFFFFF" stroke-width="4" points="21 6 21 18 31 18"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

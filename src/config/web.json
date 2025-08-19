@@ -1,0 +1,58 @@
+{
+  "MAIN_THEME": "BeePal",
+  "defaultRouter": "/home",
+  "Authorization": "Bearer ",
+  "PROXY": "http://beepal-dev-api-2.ap-northeast-1.elasticbeanstalk.com/",
+  "GETWALLET": true,
+  "lang": {
+    "cn": false,
+    "tw": true,
+    "en": true
+  },
+  "currency": {
+    "CNY": true,
+    "USD": true,
+    "NTD": true,
+    "HKD": true
+  },
+  "currencyMap": {
+    "1": "CNY",
+    "2": "HKW",
+    "3": "TWD"
+  },
+  "BOTTOM_NAV": {
+    "BeePal_HOME_SHOW": true,
+    "BeePal_DEAL_SHOW": true,
+    "MY_SHOW": true,
+    "CHAT_SHOW": true,
+    "FIND_SHOW": true
+  },
+  "MY_PAGE": {
+    "IS_WALLET": false,
+    "IS_IDENTITY": true,
+    "IS_NOTICE": true,
+    "IS_LANG": true,
+    "IS_MODIFY_PWD": true,
+    "IS_DOWNLOAD": false,
+    "IS_HELP": false,
+    "IS_ABOUT": false,
+    "IS_OTC_HISTORY": true,
+    "IS_OTC_PAYMENT": true,
+    "IS_CURRENCY_UNIT": true
+  },
+  "spot_deals": true,
+  "mainCoin": "TRON_USDT",
+  "mainCoinSymbol": "TWD",
+  "thirdPart": true,
+  "showID": true,
+  "needLogin": true,
+  "invitation": false,
+  "registerRequire": {
+    "username": true,
+    "password": true,
+    "password_confirm": true,
+    "phone": true,
+    "email": true,
+    "validationCode": true
+  }
+}

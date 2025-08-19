@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="28px" viewBox="0 0 30 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Share</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="10课程-播放2" transform="translate(-617.000000, -209.000000)" stroke="#FFFFFF" stroke-width="2.5">
+            <g id="位图" transform="translate(24.000000, 196.000000)">
+                <path d="M608.966893,38.7568421 L608.966893,31.2694737 C601.034122,31.2694737 598.966385,33.6852632 595,39 C595,28.1273684 596.238095,22.5789474 608.966893,22.3168421 L608.966893,15 L621,26.8642105 L608.966893,38.7568421 Z" id="Share"></path>
+            </g>
+        </g>
+    </g>
+</svg>

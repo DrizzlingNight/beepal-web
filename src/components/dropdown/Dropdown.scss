@@ -1,0 +1,122 @@
+@import '@/styles/mixin.scss';
+
+$displayH: 50px;
+$itemH: 50px;
+
+.fg-dropdown {
+  position: relative;
+}
+
+.fg-dropdown__display {
+  display: flex;
+  height: $displayH;
+  line-height: $displayH;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 16px;
+  padding: 18px 10px; // 右側下拉箭頭位置
+  background-color: #222222;
+  border-radius: 6px;
+  box-sizing: border-box;
+  cursor: pointer;
+
+  .arrow-down::after {
+    display: inline-block;
+    margin-left: 12px;
+    content: '';
+    width: 18px;
+    height: 12px;
+    background: url(~@/assets/icons/triangle-down.png) no-repeat;
+    transform: rotateZ(0);
+    position: relative;
+    flex-shrink: 0; //不縮減
+    background-size: contain;
+
+    //居然不生效，只好用下面的寫法了
+    .toggle-arrow-icon & {
+      transform: rotateZ(180deg);
+    }
+  }
+
+  // 展示文字的時候，圖標要與文字有距離Î
+  &.show-text::after {
+    left: 10px;
+  }
+  &.toggle-arrow-icon::after {
+    transform: rotateZ(180deg);
+  }
+}
+
+.fg-dropdown__body {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
+  border-radius: 5px;
+  z-index: 1000;
+  max-height: 0;
+  overflow: hidden;
+  color: #dedede;
+  background-color: #383838;
+  transition: max-height 0.8s;
+  box-sizing: border-box;
+  &.open {
+    // border: 1px solid #8a57ff;
+    box-shadow: 1px 1px 2px 1px rgba($color: #000000, $alpha: 0.3);
+    max-height: 60vh;
+    overflow: auto;
+    transition: max-height 0;
+  }
+  @include phone {
+    top: 51px;
+    border-radius: 10px;
+  }
+}
+
+.fg-dropdown-item {
+  display: flex;
+  align-items: center;
+  padding: 4px 20px;
+  text-align: center;
+  height: $itemH;
+  line-height: $itemH;
+  cursor: pointer;
+  &__selected {
+    &:hover {
+      // background: $dropdown-selected-hover;
+    }
+
+    &::after {
+      content: '';
+      width: 20px;
+      height: 20px;
+      background-image: url(~./check.png);
+      background-size: contain;
+      position: relative;
+      left: 8px;
+    }
+  }
+
+  &:active {
+  }
+  &:hover {
+    transition: background-color 0.6s ease;
+  }
+  .text {
+    flex-shrink: 0;
+  }
+  & + .fg-dropdown-item {
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      height: 1px;
+      background: rgba(72, 72, 72, 1);
+    }
+  }
+}

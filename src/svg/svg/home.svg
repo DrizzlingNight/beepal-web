@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="42px" viewBox="0 0 47 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 2</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="43" height="38" rx="4"></rect>
+    </defs>
+    <g id="4.DGC-pay" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="交易" transform="translate(-82.000000, -1471.000000)">
+            <g id="编组-2" transform="translate(84.000000, 1473.000000)">
+                <g id="矩形">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="蒙版" stroke="#141124" stroke-width="4" stroke-linejoin="round" xlink:href="#path-1"></use>
+                    <path d="M48,10 L20,10 C18.3431458,10 17,11.3431458 17,13 L17,25 C17,26.6568542 18.3431458,28 20,28 L48,28 C49.6568542,28 51,26.6568542 51,25 L51,13 C51,11.3431458 49.6568542,10 48,10 Z M47,14 L47,24 L21,24 L21,14 L47,14 Z" fill="#141124" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                </g>
+                <circle id="椭圆形" fill="#141124" cx="38" cy="19" r="2"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

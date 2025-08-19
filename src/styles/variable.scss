@@ -1,0 +1,108 @@
+@import './variable_custom.scss';
+
+$theme-name: $name;
+
+:export {
+  buttonTheme: $name_2;
+  originIcon: $name_3;
+  authText: $name_4; // 身份认证中的提示需显示的多语言前缀 默认应填 default_
+  circleColor: $color-03; // 倒计时轮盘的进度条颜色
+  circleBg: $color-37; // 倒计时轮盘的轨道颜色
+}
+
+//All 全部页面通用
+$bodyBgColor: $bgColor-01; //页面body背景颜色
+$pageBgColor: $bgColor-02; //页面背景颜色
+$background: $bgColor-06; //页面底色
+$Color: $color-01; //页面整体字体颜色
+
+//底部导航栏
+$footerColor: $color-02; //底部导航栏字体颜色
+$footerActiveColor: $color-03; //活跃导航字体颜色
+$footerShadow: $boxShadow-01; //底部导航栏的外阴影
+$footerHeight: $height-02; //底部导航栏的高度
+$yellow: $color-03;
+$iconColor: $color-04; //icon图标颜色
+
+//头部状态栏
+$topBgColor: $bgColor-02; //头部状态栏背景颜色
+$topColor: $color-01; //字体颜色
+$topPadding: $padding-01; //头部内部上距离
+$topHeight: $height-01; //头部高度
+
+//my 我的页面
+$listBgColor: $bgColor-02; //列表背景颜色
+$listActiveBgColor: $bgColor-06; //列表点击背景颜色
+$listGroupBgColor: $bgColor-03; //列表组整体背景颜色
+$headBgColor: $bgColor-04; //头像背景颜色
+$my-goLogin: $color-05; //前往登陆字体颜色
+$loginMarginTop: $margin-01; //登陆列表的外距离-上方
+$buttonBgColor: $bgColor-05; //登出按钮背景颜色
+$userIdColor: $color-06; //用户ID字体颜色
+
+//发现频道
+$pageBg: $bg-01; //背景
+$bannerHeight: $height-03; //Banner高度
+
+//其他
+$cardlinearBg: $linearBgColor-01; //卡片渐变色
+$cardMiddleBg: $color-30; //卡片中间平行四边形的颜色
+$darklinearColor: $bgColor-09; //渐变深色
+$componentlinear: $linearBgColor-02; //组件渐变色
+$cardBgColor: $bgColor-07; //卡片背景颜色
+$navActiveColor: $color-07; //页面中导航选中颜色
+$cardColor: $color-08; //卡片文字颜色
+$cardTitleBg: $bgColor-01; //卡片标题背景色
+$selectorBgColor: $bgColor-08; //头部下拉选择背景颜色
+$gatheringBg: $bgColor-15; //收款页面背景颜色
+$selectorBoderColor: $color-09; //头部下拉选择边框色
+$labelColor1: $color-10; //文体颜色1 (交易记录页面)
+$labelColor2: $color-11; //文体颜色2 (交易记录页面\发送点数页面)
+$labelColor3: $color-12; //文体颜色3 (交易记录页面)
+$labelColor4: $color-13; //文体颜色4 (交易详情页面\消息页面\系统消息\设置昵称)
+$labelColor5: $color-14; //文体颜色5 (消息页面\添加好友页面\消息详细页面时间)
+$labelColor6: $color-15; //文体颜色6 (我的二维码页面标题)
+$labelColor7: $color-16; //文体颜色7 (发送点数页面标题)
+$labelColor8: $color-17; //文体颜色8 (发送点数页面placeholder)
+$labelColor9: $color-18; //文体颜色9 (发送点数确认发送页面头部\添加好友未找到提示\身份认证页面\公告详情)
+$labelColor10: $color-19; //文体颜色10 (发送点数确认发送页面)
+$labelColor11: $color-20; //文体颜色11 (新朋友页面忽略按钮)
+$labelColor12: $color-21; //文体颜色12 (消息详细页面)
+$labelColor13: $color-03; //文体颜色13 (收点二维码\交易记录正数)
+$labelColor14: $color-23; //文体颜色14 (交易记录负数)
+$labelColor15: $color-24; //文体颜色15 (身份认证)
+$labelColor16: $color-26; //文体颜色16 (公告消息)
+$labelColor17: $color-27; //文体颜色17 (发现频道tip/发送点数tip)
+$labelColor18: $color-28; //文体颜色18 (发现频道balance)
+$labelColor19: $color-32; //文体颜色19
+$labelColor20: $color-38; //文体颜色20
+$labelColor21: $color-37; //文体颜色21
+$labelColor22: $color-40; //文体颜色22
+$labelColor23: $color-41; //文体颜色23
+$labelColor24: $color-42; //文体颜色24
+$labelColor25: $color-43; //文体颜色25
+$labelColor26: $color-44; //文体颜色26
+$labelColor27: $color-45; //文体颜色27
+$transfer: $color-34; //转出
+$gathering: $color-35; //收款
+$errorColor: $color-36; //错误
+$completeColor: $color-33; //完成
+$tabsActiveBorderBg: $bgColor-11; //tabs选中时底部伪边框的背景色
+$tabsInactiveColor: $color-33; //tabs没有选中时文字颜色
+$gatheringBtn: $linearBgColor-03; //收款按钮
+$transferBtn: $linearBgColor-04; //转出按钮
+$diableBtnColor: $bgColor-10; //禁用按钮颜色
+$cellBorderColor: $color-22; //输入框边框颜色
+$tipsColor: $color-39; //提示文字颜色
+$authErr: $bgColor-16; //认证失败
+$onAuth: $bgColor-17; //审核中
+$cancelBgColor: $bgColor-12; // 取消按钮背景色
+$tintBg: $bgColor-13; // 浅色背景
+$tipsBg: $bgColor-14; // 提示框背景色
+$BorderColor: $color-25; //边框颜色
+$BorderColor2: $color-29; //边框颜色2
+$BorderColor3: $color-31; //边框颜色3
+$BorderColor4: $color-37; //边框颜色4
+
+//字体
+$font-family-base: $font-family;

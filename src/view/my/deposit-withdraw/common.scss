@@ -1,0 +1,33 @@
+.title {
+  margin: 10px 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+.chain-title {
+  margin-top: 16px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgba(136, 136, 136, 1);
+}
+.btn {
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 2px;
+  background: rgba(247, 246, 251, 1);
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  border: 1px solid transparent; // 保证切换的时候不会晃动
+
+  &__active {
+    background: unset;
+    border: 1px solid #adadad;
+  }
+  & + .btn {
+    margin-left: 12px;
+  }
+}

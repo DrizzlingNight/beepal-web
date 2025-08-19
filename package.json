@@ -1,0 +1,86 @@
+{
+  "name": "vant-demo",
+  "version": "1.0.0",
+  "description": "Collection of vant demos.",
+  "author": "neverland <chenjiahan@neverl.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --mode production",
+    "dev-build": "vue-cli-service build --mode development",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@cheprasov/qrcode": "^0.1.0",
+    "async-validator": "^3.2.2",
+    "axios": "^0.21.1",
+    "clipboard": "^2.0.4",
+    "current-device": "^0.10.2",
+    "decimal.js": "^10.2.0",
+    "echarts": "^4.9.0",
+    "image-conversion": "^2.1.1",
+    "is-url": "^1.2.4",
+    "lodash": "^4.17.21",
+    "qrcode": "^1.4.4",
+    "tim-js-sdk-ws": "^2.11.1",
+    "tim-upload-plugin": "^1.0.1",
+    "vant": "^2.12.14",
+    "vue": "^2.6.10",
+    "vue-i18n": "^8.24.3",
+    "vue-image-crop-upload": "^2.5.0",
+    "vue-qrcode": "^0.4.0",
+    "vue-qrcode-reader": "^3.0.4",
+    "vue-router": "^3.0.5",
+    "vue-worker": "^1.2.1",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-service": "^3.8.3",
+    "autoprefixer": "^9.7.1",
+    "babel-plugin-import": "^1.12.0",
+    "babel-plugin-lodash": "^3.3.4",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "fibers": "^5.0.0",
+    "less": "^3.8.1",
+    "less-loader": "^5.0.0",
+    "node-sass": "^4.14.1",
+    "postcss-px-to-viewport": "^1.1.1",
+    "postcss-px-viewport": "0.0.4",
+    "sass": "^1.32.8",
+    "sass-loader": "^8.0.0",
+    "svg-sprite-loader": "^4.1.6",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "plugin:vue/recommended",
+      "eslint:recommended",
+      "@vue/prettier"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "Android >= 4.0",
+    "iOS >= 7"
+  ],
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "https://e.coding.net/marble/beex.git"
+  }
+}

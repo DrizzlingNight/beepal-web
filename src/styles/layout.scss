@@ -1,0 +1,215 @@
+@import './variable.scss';
+
+@font-face {
+  font-family: 'Averta';
+  src: url("~@/assets/fonts/Averta.woff2") format("woff2"),
+  url("~@/assets/fonts/Averta.woff") format("woff"),
+  url("~@/assets/fonts/Averta.ttf") format("truetype"),
+  url("~@/assets/fonts/Averta.eot") format("embedded-opentype"),
+  url("~@/assets/fonts/Averta.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Averta-Bold';
+  src: url("~@/assets/fonts/Averta-Bold.woff2") format("woff2"),
+  url("~@/assets/fonts/Averta-Bold.woff") format("woff"),
+  url("~@/assets/fonts/Averta-Bold.ttf") format("truetype"),
+  url("~@/assets/fonts/Averta-Bold.eot") format("embedded-opentype"),
+  url("~@/assets/fonts/Averta-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Averta-Semibold';
+  src: url("~@/assets/fonts/Averta-Semibold.woff2") format("woff2"),
+  url("~@/assets/fonts/Averta-Semibold.woff") format("woff"),
+  url("~@/assets/fonts/Averta-Semibold.ttf") format("truetype"),
+  url("~@/assets/fonts/Averta-Semibold.eot") format("embedded-opentype"),
+  url("~@/assets/fonts/Averta-Semibold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  background-color: $bodyBgColor;
+  font-family: 'Averta-Semibold', 'Averta', $font-family-base;
+}
+
+// 底部区域在底部
+#app {
+  height: 100%;
+  position: relative;
+  /*必要条件*/
+
+  #layout:first-child {
+    height: 100%;
+    //padding-bottom: $footerHeight; /*此处务必大于等于.footer__stay-bottom的高度*/
+  }
+
+  #layout.full-screen {
+    padding: 0;
+  }
+
+  .footer__stay-bottom {
+    position: fixed;
+    /*必要条件*/
+    height: $footerHeight;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    /*必要条件*/
+  }
+}
+
+.page-top-safe-area {
+  //margin-top: 44px;
+  padding-top: 1em;
+}
+
+.page-top-safe-area__has-page-title {
+  position: fixed;
+  top: 0;
+  padding-top: $topPadding;
+  height: $topHeight;
+  width: 100%;
+  text-align: center;
+  color: $topColor;
+  background-color: $topBgColor;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+.main-content {
+  padding-top: calc(#{$topHeight} + #{$topPadding});
+}
+
+.page-module {
+  padding: 0 24px;
+}
+
+// 发现、订单等页面标题，顶部是黑色块，标题白色
+.page-title {
+  //line-height: $topHeight + 5px;
+  width: fit-content;
+  //padding-top: $topHeight/3.5;
+  display: inline-block;
+  //background: $topBgColor;
+  font-size: 17px;
+  font-weight: bold;
+
+}
+
+.page-title-cs {
+  height: 30px;
+  //margin-right: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 15px;
+  max-width: 0px;
+  display: flex;
+  align-items: center;
+  direction: rtl;
+}
+
+.page-left {
+  height: 30px;
+  margin-left: 15px;
+  max-width: 0px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.page-right-font {
+  width: 50px;
+  font-size: 12px;
+  transform: scale(0.9, 0.9);
+  top: 80%;
+  left: -12px;
+  white-space: nowrap;
+}
+
+.box-border {
+  border-bottom: 1px solid #ebedf0;
+}
+
+.van-popover[data-popper-placement=bottom-end] .van-popover__arrow {
+  display: none;
+}
+
+.dialog, .dialog_c {
+  border-radius: 6px;
+
+  .van-dialog__message {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .van-dialog__confirm {
+    color: $cardColor;
+    background-color: $cardBgColor;
+  }
+
+  .van-dialog__cancel {
+    background-color: $cancelBgColor;
+  }
+}
+
+.dialog_c {
+  .van-dialog__message {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+
+.alertDialog {
+  border-radius: 6px;
+  width: 70%;
+
+  .van-dialog__header {
+    font-size: 19px;
+    font-weight: bold;
+    color: $labelColor25;
+  }
+
+  .van-dialog__message {
+    text-align: left;
+    font-size: 14px;
+    padding-bottom: 0;
+    color: $labelColor18;
+  }
+
+  .van-dialog__confirm {
+    color: $cardColor;
+    background-color: $cardBgColor;
+    margin: 30px 20px;
+    border-radius: 4px;
+  }
+
+  .van-hairline--top {
+    &::after {
+      content: none;
+    }
+  }
+}
+
+.van-popup {
+  &.cancel,
+  &.success {
+    font-size: 16px;
+    height: 50px;
+  }
+}
+
+.van-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

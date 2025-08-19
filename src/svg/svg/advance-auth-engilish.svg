@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="37px" viewBox="0 0 37 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 4</title>
+    <defs>
+        <linearGradient x1="90.039335%" y1="19.2486327%" x2="18.0094474%" y2="87.2645471%" id="linearGradient-1">
+            <stop stop-color="#5030FF" offset="0%"></stop>
+            <stop stop-color="#0069DB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="交易-自选区-买币" transform="translate(-278.000000, -445.000000)">
+            <g id="编组-4" transform="translate(278.000000, 445.000000)">
+                <g id="编组-6" fill="url(#linearGradient-1)">
+                    <circle id="椭圆形" cx="18.5" cy="18.5" r="18.5"></circle>
+                </g>
+                <polygon id="H" fill="#FFFFFF" fill-rule="nonzero" points="13.236 29 13.236 20.152 23.372 20.152 23.372 29 26.648 29 26.648 9.008 23.372 9.008 23.372 17.352 13.236 17.352 13.236 9.008 9.96 9.008 9.96 29"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>交易</title>
+    <defs>
+        <linearGradient x1="100%" y1="100%" x2="0%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FFBC00" offset="0%"></stop>
+            <stop stop-color="#FFD92A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-250.000000, -493.000000)">
+            <g id="编组-6备份" transform="translate(93.000000, 482.000000)">
+                <g id="编组-15" transform="translate(149.000000, 3.000000)">
+                    <g id="交易-on" transform="translate(8.000000, 8.000000)">
+                        <circle id="椭圆形" fill="url(#linearGradient-1)" cx="24" cy="24" r="24"></circle>
+                        <g id="编组-10" transform="translate(11.733333, 14.041124)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+                            <polyline id="路径-3" points="5.56198883 2.36847579e-13 -1.89478063e-15 5.48471489 25.3383413 5.48471489"></polyline>
+                            <polyline id="路径-3" transform="translate(12.669171, 17.501234) scale(-1, -1) translate(-12.669171, -17.501234) " points="5.56198883 14.7588765 -1.89478063e-15 20.2435914 25.3383413 20.2435914"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

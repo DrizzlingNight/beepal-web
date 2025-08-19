@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 11</title>
+    <g id="4.T-pay" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-1首页-总览备份-绿色" transform="translate(-264.000000, -1380.000000)" stroke-width="4">
+            <g id="编组-11" transform="translate(266.000000, 1382.000000)">
+                <circle id="椭圆形" stroke="#20DDC1" fill="#20DDC1" cx="20.5" cy="20.5" r="20.5"></circle>
+                <g id="编组-10" transform="translate(9.000000, 11.163553)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline id="路径-3" points="5.21436453 0 0 5.14192021 23.7546949 5.14192021"></polyline>
+                    <polyline id="路径-3" transform="translate(11.877347, 16.407407) scale(-1, -1) translate(-11.877347, -16.407407) " points="5.21436453 13.8364467 0 18.9783669 23.7546949 18.9783669"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

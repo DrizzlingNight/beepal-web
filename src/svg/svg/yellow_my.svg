@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="43px" viewBox="0 0 40 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>我的</title>
+    <defs>
+        <linearGradient x1="92.6035503%" y1="100%" x2="7.3964497%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FFBC00" offset="0%"></stop>
+            <stop stop-color="#FFD92A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-714.000000, -497.000000)" fill="url(#linearGradient-1)">
+            <g id="编组-6备份" transform="translate(93.000000, 482.000000)">
+                <g id="编组-5" transform="translate(609.000000, 4.000000)">
+                    <g id="编组-13" transform="translate(12.000000, 11.000000)">
+                        <path d="M19.8,22 C30.735238,22 39.6,30.240819 39.6,40.4063845 C29.7,43.7312052 9.9,43.7312052 0,40.4063845 C0,30.240819 8.86476195,22 19.8,22 Z M19.8,0 C25.267619,0 29.7,4.43238098 29.7,9.9 C29.7,15.367619 25.267619,19.8 19.8,19.8 C14.332381,19.8 9.9,15.367619 9.9,9.9 C9.9,4.43238098 14.332381,0 19.8,0 Z" id="形状结合"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

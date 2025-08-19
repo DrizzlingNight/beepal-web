@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="30px" viewBox="0 0 33 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>查看-on</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页-隐藏" transform="translate(-663.000000, -216.000000)">
+            <g id="查看-off" transform="translate(650.000000, 201.000000)">
+                <polygon id="view-box" fill="#141124" opacity="0" points="0 0 60 0 60 60 0 60"></polygon>
+                <path d="M38.3605398,38.3445398 C35.8280081,40.5815133 32.8744948,41.7 29.5,41.7 C23.1987654,41.7 18.3654321,37.8 15,30 C18.3654321,22.2 23.1987654,18.3 29.5,18.3 C35.8012346,18.3 40.6345679,22.2 44,30 C43.624502,30.8702849 43.2307301,31.6920187 42.8186843,32.4652016 M33.8238423,34.1918692 L25.1036613,25.8755092 C23.9817191,26.935248 23.2857143,28.3948235 23.2857143,30 C23.2857143,33.2175 26.0821429,35.85 29.5,35.85 C31.176292,35.85 32.7031041,35.2167723 33.8238423,34.1918692 Z M15.6904762,17 L43.3095238,43 L15.6904762,17 Z" id="Bind" stroke="#F7F7F7" stroke-width="2.88" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+*.log*
+.cache
+.DS_Store
+.idea
+.vscode
+node_modules
+yarn.lock
+dist
+
+!/node_modules/vue-image-crop-upload/upload-2.vue

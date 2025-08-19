@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="135px" height="135px" viewBox="0 0 135 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 4</title>
+    <defs>
+        <linearGradient x1="86.9653311%" y1="15.9089449%" x2="10.8783102%" y2="78.29171%" id="linearGradient-1">
+            <stop stop-color="#FFE10E" offset="0%"></stop>
+            <stop stop-color="#FFC006" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="55.5" cy="55.5" r="55.5"></circle>
+        <filter x="-19.4%" y="-13.1%" width="138.7%" height="138.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.151797421 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="广告商-出售出价" transform="translate(-598.000000, -1484.000000)">
+            <g id="编组-3" transform="translate(598.000000, 1484.000000)">
+                <g id="编组-4" transform="translate(12.000000, 5.000000)">
+                    <g id="椭圆形">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    </g>
+                    <path d="M55,23 C57.209139,23 59,24.790861 59,27 L59,51.499 L83.5,51.5 C85.709139,51.5 87.5,53.290861 87.5,55.5 C87.5,57.709139 85.709139,59.5 83.5,59.5 L59,59.5 L59,84 C59,86.209139 57.209139,88 55,88 C52.790861,88 51,86.209139 51,84 L51,59.5 L26.5,59.5 C24.290861,59.5 22.5,57.709139 22.5,55.5 C22.5,53.290861 24.290861,51.5 26.5,51.5 L51,51.5 L51,27 C51,24.790861 52.790861,23 55,23 Z" id="形状结合" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

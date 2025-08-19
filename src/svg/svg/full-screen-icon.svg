@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 6</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="10课程-播放2" transform="translate(-676.000000, -206.000000)" stroke="#FFFFFF" stroke-width="2.25">
+            <g id="编组-6" transform="translate(678.000000, 207.000000)">
+                <g id="编组-5" transform="translate(24.610764, 12.551515) rotate(-315.000000) translate(-24.610764, -12.551515) translate(15.610764, 4.551515)">
+                    <polyline id="路径-11" points="0 9.3988921 8.8716843 0.527207794 17.7433686 9.3988921"></polyline>
+                    <line x1="8.8716843" y1="15.1575182" x2="8.8716843" y2="0.527207794" id="路径-17"></line>
+                </g>
+                <g id="编组-5" transform="translate(11.948475, 24.959246) rotate(-135.000000) translate(-11.948475, -24.959246) translate(2.948475, 17.459246)">
+                    <polyline id="路径-11" points="0 8.8716843 8.8716843 0 17.7433686 8.8716843"></polyline>
+                    <line x1="8.8716843" y1="14.6303104" x2="8.8716843" y2="7.36690708e-13" id="路径-17"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

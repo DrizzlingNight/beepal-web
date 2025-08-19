@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="41px" viewBox="0 0 44 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组</title>
+    <defs>
+        <path d="M-4.54747351e-13,10.2237332 L10.123929,10.2237332" id="path-1"></path>
+        <filter x="-24.7%" y="-200.0%" width="149.4%" height="700.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1.5" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <path d="M-4.54747351e-13,24 L10.123929,24" id="path-3"></path>
+        <filter x="-24.7%" y="-200.0%" width="149.4%" height="700.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1.5" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="4.DGC-pay" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="发送点数1" transform="translate(-647.000000, -312.000000)">
+            <g id="编组" transform="translate(649.969191, 314.000000)">
+                <rect id="矩形" stroke="#373737" stroke-width="3" x="5.03080892" y="0" width="34" height="37" rx="3"></rect>
+                <rect id="矩形" stroke="#373737" stroke-width="3" x="5.03080892" y="0" width="27" height="37" rx="3"></rect>
+                <g id="路径-20" stroke-linecap="round">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#373737" stroke-width="3" xlink:href="#path-1"></use>
+                </g>
+                <g id="路径-20" stroke-linecap="round">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use stroke="#373737" stroke-width="3" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

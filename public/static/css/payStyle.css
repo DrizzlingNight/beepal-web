@@ -1,0 +1,78 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  background: #F5F5F5;
+  font-family: '微软雅黑';
+  height: 100%; }
+
+body {
+  font-size: 0.14rem; }
+
+li {
+  list-style: none; }
+
+.clearfix::after {
+  height: 0;
+  content: '';
+  visibility: hidden;
+  display: block;
+  clear: both; }
+
+.header {
+  text-align: center;
+  height: 62px;
+  line-height: 62px;
+  background: #fff; }
+  .header .logo {
+    width: 1.64rem;
+    height: 0.4rem; }
+
+.wrap {
+  height: 100%;
+  background: #fff;
+  margin: 20px auto; }
+  .wrap .content {
+    text-align: center;
+    padding: 20px 0; }
+    .wrap .content .top > div, .wrap .content .bottom > div {
+      margin-bottom: 25px; }
+    .wrap .content .time-out {
+      display: none;
+      width: 2.6rem;
+      height: 2.6rem;
+      border-radius: 50%;
+      margin: 0 auto;
+      border: 3px solid #EB730B;
+      color: #EB730B;
+      text-align: center;
+      line-height: 2.6rem;
+      font-size: 0.38rem; }
+    .wrap .content .money {
+      font-size: 0.38rem; }
+    .wrap .content .time {
+      font-size: 0.38rem; }
+    .wrap .content .dead-line {
+      color: red;
+      font-size: 0.16rem; }
+    .wrap .content .scan {
+      width: 0.55rem;
+      height: 0.55rem;
+      margin-right: 0.28rem; }
+    .wrap .content .scan-text {
+      font-size: 0.16rem; }
+    .wrap .content .ali-btn {
+      padding: 0.14rem 0.22rem;
+      font-size: 0.14rem;
+      text-align: center;
+      display: inline-block;
+      background: #1890FF;
+      color: #fff;
+      border-radius: 4px;
+      text-decoration: none; }
+      .wrap .content .ali-btn:hover {
+        background: #054D90; }
+    .wrap .content .notice {
+      font-size: 0.16rem; }

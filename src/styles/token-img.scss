@@ -1,0 +1,16 @@
+.balance-img {
+  margin-right: 9px;
+  height: 25px;
+  width: 25px;
+  // background: rgba(255, 255, 255, 1);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url(~@/assets/coins/USDT.png);
+  &.USDT {
+    background-image: url(~@/assets/coins/USDT.png);
+  }
+  &.DIC {
+    background-image: url(~@/assets/coins/DIC.png);
+  }
+}

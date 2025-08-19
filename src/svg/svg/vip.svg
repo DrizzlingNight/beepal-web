@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="30px" viewBox="0 0 36 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>形状结合</title>
+    <defs>
+        <linearGradient x1="0%" y1="-8.25531767%" x2="115.541433%" y2="83.954092%" id="linearGradient-1">
+            <stop stop-color="#FFE201" offset="0%"></stop>
+            <stop stop-color="#FFC100" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="交易-自选区-买币" transform="translate(-240.000000, -447.000000)" fill="url(#linearGradient-1)">
+            <g id="编组-7" transform="translate(0.000000, 402.000000)">
+                <path d="M258,45 C259.907541,52.3363945 262.355367,56.1429007 265.343478,56.4195188 C268.331588,56.6961368 271.883763,53.4450679 276,46.666312 L271,74.666312 L245,74.666312 L240,46.666312 C243.500874,53.1684498 246.821452,56.4195188 249.961734,56.4195188 C253.102015,56.4195188 255.781437,52.6130125 258,45 Z M253.217898,59.833156 L248.691543,59.833156 L256.41892,71.5158069 L259.83763,71.5158069 L266.457362,59.833156 L262.191358,59.833156 L258,67.1114486 L253.217898,59.833156 Z" id="形状结合"></path>
+            </g>
+        </g>
+    </g>
+</svg>

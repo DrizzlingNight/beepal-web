@@ -1,0 +1,17 @@
+@import './variable.scss';
+$img:'~@/assets/icons/'+$theme-name+'-back-arrow.png';
+.back-arrow {
+  position: absolute;
+  left: 1em;
+  bottom: 0.8em;
+  height: 18px;
+  width: 18px;
+  background-image: url($img);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.vue-image-crop-upload .vicp-wrap {
+  width: 100% !important;
+  height: 100% !important;
+}

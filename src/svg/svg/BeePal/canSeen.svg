@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="28px" viewBox="0 0 33 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>查看-on</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-663.000000, -217.000000)">
+            <g id="查看-on" transform="translate(650.000000, 201.000000)">
+                <polygon id="view-box" fill="#141124" opacity="0" points="0 0 60 0 60 60 0 60"></polygon>
+                <path d="M29.5,42 C35.8012346,42 40.6345679,38 44,30 C40.6345679,22 35.8012346,18 29.5,18 C23.1987654,18 18.3654321,22 15,30 C18.3654321,38 23.1987654,42 29.5,42 Z M29.5,36 C26.0821429,36 23.2857143,33.3 23.2857143,30 C23.2857143,26.7 26.0821429,24 29.5,24 C32.9178571,24 35.7142857,26.7 35.7142857,30 C35.7142857,33.3 32.9178571,36 29.5,36 Z" id="Eye" stroke="#F7F7F7" stroke-width="2.88" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

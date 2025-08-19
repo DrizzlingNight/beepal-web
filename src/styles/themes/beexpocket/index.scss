@@ -1,0 +1,30 @@
+$name: 'white';
+
+$bg-01: url('./find-bg.png') no-repeat
+
+$bgColor-01: #111111;
+$bgColor-02: #222222;
+$bgColor-03: #424242;
+$bgColor-04: $bgColor-02;
+$bgColor-05: #ff3f53;
+$bgColor-06: $bgColor-02;
+
+$color-01: #ffffff;
+$color-02: #646464;
+$color-03: #eeb704;
+$color-04: #d1d1d1;
+$color-05: #FFC100;
+$color-06: $color-05;
+$color-08: #0D0D0D;
+$color-15: #FFC100;
+$color-24: #404040;
+
+$margin-01: 20px;
+
+$padding-01: 10px;
+
+$boxShadow-01: 0 0 8px rgba(0, 0, 0, 0.6);
+
+//字体
+$font-family: Helvetica, Helvetica Neue, Tahoma, Arial, PingFang SC,
+Microsoft YaHei, San Francisco, Roboto, Hiragino Sans GB, Heiti SC, sans-serif;
